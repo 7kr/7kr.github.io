@@ -1,3 +1,87 @@
-html {
-  color: #888;
+// define some basic params
+$width: 800px;
+
+html, body {
+  height: 100%;
+}
+body {
+  background: #f5f5d5;
+  width: 100%;
+  color: #303030;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  padding: 0;
+  margin: 0;   
+}
+header {
+  text-align: center; 
+}
+#container {
+  *zoom: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+  background: #fff;
+  margin: 40px auto 20px;
+  border-radius: 7px;
+  border: 1px solid #eee;
+  position: relative; 
+}
+#container:before, #container:after {
+  content: " ";
+  display: table; 
+}
+#container:after {
+  clear: both; 
+}
+.content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  border-width: 0;
+  border-style: solid;
+  padding: 30px 60px;
+  margin: auto; 
+}  
+a {
+  text-decoration: none;
+  color: #428bca;
+  line-height: 1.4em;
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; 
+}
+ul.posts, ul.posts li {
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+}
+ul.posts li {
+  margin-bottom: 20px; 
+}
+ul.posts .datetime {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  width: 130px;
+  text-transform: uppercase;
+  float: right;
+  color: #999;
+  font-size: 14px;
+  text-align: right; 
 }
