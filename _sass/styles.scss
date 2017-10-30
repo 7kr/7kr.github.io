@@ -85,3 +85,14 @@ ul.posts .datetime {
   font-size: 14px;
   text-align: right; 
 }
+.footer_pv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer_pv span{
+  color: #888;
+  font-size: 18px;
+}
