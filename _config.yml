@@ -42,5 +42,3 @@ plugins:
 # jekyll sass
 sass:
     sass_dir: _sass
- # This will require each of these gems automatically.
-gems: []
