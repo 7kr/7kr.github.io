@@ -1,0 +1,30 @@
+// Firstly, Use Normalize.css to Reset style.
+
+// Our variables
+$base-font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+$base-font-size: 16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+$base-font-color: #303030;
+$base-font-weight: 400;
+$base-font-border: 800;
+
+$full-width: 100%;
+// $background-color: #fdfdfd;
+$background-color: #f5f5d5;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$screen-sm-min: 768px;  // pad: >=768px
+$screen-md-min: 992px;  // middle screen: >=992px
+$screen-lg-min: 1200px; // large screen: >=1200px
+
+$content-width: 800px;
+
+@mixin media-query($screen-sm-min) {
+  @media screen and (max-width: $screen-sm-min) {
+      @content;
+  }
+}

@@ -13,19 +13,6 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 7Kr
-email: openkr@aliyun.com
-description: >- # this means to ignore newlines until "baseurl:"
-  do better today
-baseurl: "/7kr.github.io" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  7Kr
-
-# Build settings
-markdown: kramdown
-# theme: minima
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -40,5 +27,20 @@ plugins:
 #   - vendor/ruby/
 
 # define my blog config 
+title: 7Kr
+email: openkr@aliyun.com
+description: >- # this means to ignore newlines until "baseurl:"
+  do better today
+baseurl: "/7kr.github.io" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  7Kr
+# Build settings
+markdown: kramdown
+# theme: minima
+plugins:
+  - jekyll-feed
+# jekyll sass
 sass:
     sass_dir: _sass
+ # This will require each of these gems automatically.
+gems: []

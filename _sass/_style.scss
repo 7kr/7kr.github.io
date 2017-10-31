@@ -5,15 +5,13 @@ html, body {
   height: 100%;
 }
 body {
-  background: #f5f5d5;
-  width: 100%;
-  color: #303030;
-  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 19px;
-  padding: 0;
-  margin: 0;   
+  background: $background-color;
+  width: $full-width;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
 }
 header {
   text-align: center; 
