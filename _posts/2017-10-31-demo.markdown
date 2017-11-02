@@ -1,8 +1,62 @@
 ---
 　layout: default
-　title: Demo
+	title: demo
 ---
+# 文章标题
+> 版权声明：本文为 7kr 原创文章，可以随意转载，但必须在明确位置注明出处！！！
+	简述部分：博客采用 Github 和 Jekyll 作为骨架，markdown 作为文章书写格式，scss 用于布局样式。本文作为文章详情页 md 写法的基础介绍。
+markdown 的标题，以 # 号开头，并空一格
+一级标题为： # 
+二级标题为： ## 
+三级标题为： ###  
+## 二级标题
+### 三级标题
+段落一：段落首部不采用缩进。
 
-<h2>{{ page.title }}</h2>
-<p>测试搜索demo page</p>
-<p>{{ page.date | date_to_string }}</p>
+段落二：段落间间隔一行，用于区分段落。
+## 序列
+### 无序
+* 无序语句，以 * 号开头
+### 有序
+1. 有序语句，以自然数字，例如 1. 开头，并空一格
+### 反义
+“ 1986 \\. ”
+例子：
+1986\. What a great season.
+### 代码区块
+    这是一个代码区块。
+    四个空格代码书写代码区块
+### 这是分割线
+“ *** ”
+例子：
+***
+### 链接
+“ This is [an example](http://example.com/ "Title") inline link. ”
+例子：
+This is [an example](http://example.com/ "Title") inline link.
+[This link](http://example.net/) has no title attribute.
+See my [About](/about/) page for details. 超链接相对路径写法
+### 强调
+“ *single asterisks* ”
+“ _single underscores_ ”
+例子：
+*single asterisks*
+_single underscores_
+### 代码 
+“ Use the `printf()` function. ”
+例子：
+Use the `printf()` function.
+A backtick-delimited string in a code span: `` `foo` ``
+### 图片
+“ ![Alt text](../image/img.jpg "Optional title") ”
+例子：
+![Alt text](../image/img.png "Optional title")
+<br />
+<p class="wx-title">二维码标题</p>
+
+![Alt text](../image/vscode_ui.png "Optional title")
+<br>
+<div>
+	<p class="pre">上一篇：</p>
+	<p class="next">下一篇：</p>
+</div>
