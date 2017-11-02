@@ -2,3 +2,19 @@
   <!-- <p>Total <span id="busuanzi_value_site_pv"></span> views，您是本站的第<span id="busuanzi_value_site_uv"></span>个小伙伴，<span id="busuanzi_value_page_pv"></span> Hits</p><br/> -->
   <span id="busuanzi_container_site_pv">本站总访问量: <span id="busuanzi_value_site_pv"></span>次</span>
 </footer>
+<!-- pv -->
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- search -->
+<script src="https://cdn.bootcss.com/simple-jekyll-search/1119c1a/jekyll-search.min.js"></script>
+<script type="text/javascript">
+  window.simpleJekyllSearch = new SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/search.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false,
+    exclude: ['Welcome']
+  })
+</script>
